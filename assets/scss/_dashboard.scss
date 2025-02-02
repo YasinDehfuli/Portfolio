@@ -1,0 +1,28 @@
+$background-color: #040b14;
+$default-color: #272829;
+$heading-color: #050d18;
+$accent-color: #149ddd;
+$surface-color: #ffffff;
+$contrast-color: #ffffff;
+$nav-color: #a8a9b4;
+$nav-hover-color: #ffffff;
+$nav-mobile-background-color: #040b14;
+$nav-dropdown-background-color: #040b14;
+$nav-dropdown-color: #a8a9b4;
+$nav-dropdown-hover-color: #ffffff;
+
+
+$font-family : "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace ;
+
+.light-background {
+  $background-color: #f4fafd;
+  $surface-color: #ffffff;
+}
+
+.dark-background {
+  $background-color: #040b14;
+  $default-color: #ffffff;
+  $heading-color: #ffffff;
+  $surface-color: #151f2b;
+  $contrast-color: #ffffff;
+}
