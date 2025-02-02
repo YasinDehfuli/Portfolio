@@ -1,0 +1,68 @@
+$color_1: #22215B;
+$color_2: #22215B80;
+
+#blogs {
+
+  .card {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .card-img-holder {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: auto;
+      max-height: 15rem;
+      object-fit: cover;
+      border-radius: 1.5rem;
+    }
+  }
+
+  .blog-title {
+    color: $color_1;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+  }
+
+  .description {
+    padding: 1rem 0;
+    color: $color_2;
+    font-size: 1rem;
+  }
+
+  .blog-time {
+    font-size: .8rem;
+    color: $color_1;
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+
+    span {
+      font-weight: 600;
+      color: $color_1;
+    }
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    font-weight: 400;
+    background: #EEF7FE;
+    color: $color_1;
+    cursor: pointer;
+  }
+}
