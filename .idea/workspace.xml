@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0788b19b-c91d-41d7-b650-ee91711d3a8e" name="Changes" comment="feat(dashboard): added main variables dashboard">
+      <change afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_portfolio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_resume.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_services.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_skills.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/_stats.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-details.html" afterDir="false" />
+    </list>
+    <list id="34398eae-dc0b-48e6-9f92-e2a23e6b13cf" name="Ignore" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YasinDehfuli&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YasinDehfuli/Portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;2c5e45ef-b411-418f-91be-88e5474bae0a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2pWJSiWk10oxcLTz4YbDrj8fnmT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mac/WebstormProjects/Front-End/Portfolio/assets/img&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/assets/img/portfolio" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.112" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0788b19b-c91d-41d7-b650-ee91711d3a8e" name="Changes" comment="" />
+      <changelist id="34398eae-dc0b-48e6-9f92-e2a23e6b13cf" name="Ignore" comment="" />
+      <created>1732875900032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732875900032</updated>
+      <workItem from="1732875901901" duration="12966000" />
+      <workItem from="1733232420466" duration="2859000" />
+      <workItem from="1733298669812" duration="656000" />
+      <workItem from="1733307947314" duration="8000" />
+      <workItem from="1733987942688" duration="388000" />
+      <workItem from="1734183281405" duration="641000" />
+      <workItem from="1734184061560" duration="3585000" />
+      <workItem from="1734289995534" duration="850000" />
+      <workItem from="1735027966789" duration="5773000" />
+      <workItem from="1735328018807" duration="1793000" />
+      <workItem from="1735330836280" duration="13000" />
+      <workItem from="1735371497516" duration="11000" />
+      <workItem from="1735387898457" duration="4637000" />
+      <workItem from="1735416661032" duration="113000" />
+      <workItem from="1735416822155" duration="3633000" />
+      <workItem from="1735544281388" duration="63000" />
+      <workItem from="1735557749144" duration="3698000" />
+      <workItem from="1735586094916" duration="472000" />
+      <workItem from="1735631824817" duration="23000" />
+      <workItem from="1735718135866" duration="1164000" />
+      <workItem from="1736079629901" duration="1605000" />
+      <workItem from="1736334900880" duration="112000" />
+      <workItem from="1736335575436" duration="654000" />
+      <workItem from="1736396424199" duration="1455000" />
+      <workItem from="1736939046256" duration="384000" />
+      <workItem from="1737118852741" duration="373000" />
+      <workItem from="1738481008499" duration="1102000" />
+      <workItem from="1738590095664" duration="6000" />
+      <workItem from="1738612761245" duration="10000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat(packages): added internal packages directories">
+      <option name="closed" value="true" />
+      <created>1733298845162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733298845162</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(favicon): added favicon">
+      <option name="closed" value="true" />
+      <created>1733298912232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733298912232</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat(package.json): added package.json and lock file">
+      <option name="closed" value="true" />
+      <created>1733299475080</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733299475080</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat(index): added portfolio landing page">
+      <option name="closed" value="true" />
+      <created>1736335010692</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736335010692</updated>
+    </task>
+    <task id="LOCAL-00005" summary="style(index): fix some edge cases">
+      <option name="closed" value="true" />
+      <created>1736396909878</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736396909878</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat(images): added portfolio images on .webp formats">
+      <option name="closed" value="true" />
+      <created>1736396979512</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736396979512</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat(images): added portfolio images on .webp formats">
+      <option name="closed" value="true" />
+      <created>1736397038099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736397038099</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat(images): added portfolio images on .webp formats">
+      <option name="closed" value="true" />
+      <created>1736397058739</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736397058739</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat(package): added remixicon icon package">
+      <option name="closed" value="true" />
+      <created>1736397901055</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736397901055</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat(index): added navbar scss">
+      <option name="closed" value="true" />
+      <created>1736939554367</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736939554367</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat(index): added hero scss">
+      <option name="closed" value="true" />
+      <created>1736939563363</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736939563363</updated>
+    </task>
+    <task id="LOCAL-00012" summary="chore(gitignore): added git ignore setup">
+      <option name="closed" value="true" />
+      <created>1737118892849</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737118892849</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat(main.js): added main js files origin app">
+      <option name="closed" value="true" />
+      <created>1737118955634</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737118955634</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat(styles): added breadcrumb styles scss">
+      <option name="closed" value="true" />
+      <created>1737118987415</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1737118987415</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat(styles): added back top button styles scss">
+      <option name="closed" value="true" />
+      <created>1737119012550</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737119012550</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat(preloader): added preloader styles">
+      <option name="closed" value="true" />
+      <created>1737119036237</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737119036237</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat(index): added about section styles">
+      <option name="closed" value="true" />
+      <created>1738481239645</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738481239645</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat(index): added blogs section styles">
+      <option name="closed" value="true" />
+      <created>1738481249173</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1738481249173</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat(dashboard): added main variables dashboard">
+      <option name="closed" value="true" />
+      <created>1738481277847</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1738481277847</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(packages): added internal packages directories" />
+    <MESSAGE value="feat(favicon): added favicon" />
+    <MESSAGE value="feat(package.json): added package.json and lock file" />
+    <MESSAGE value="feat(index): added portfolio landing page" />
+    <MESSAGE value="style(index): fix some edge cases" />
+    <MESSAGE value="feat(images): added portfolio images on .webp formats" />
+    <MESSAGE value="feat(package): added remixicon icon package" />
+    <MESSAGE value="feat(index): added navbar scss" />
+    <MESSAGE value="feat(index): added hero scss" />
+    <MESSAGE value="chore(gitignore): added git ignore setup" />
+    <MESSAGE value="feat(main.js): added main js files origin app" />
+    <MESSAGE value="feat(styles): added breadcrumb styles scss" />
+    <MESSAGE value="feat(styles): added back top button styles scss" />
+    <MESSAGE value="feat(preloader): added preloader styles" />
+    <MESSAGE value="feat(index): added about section styles" />
+    <MESSAGE value="feat(index): added blogs section styles" />
+    <MESSAGE value="feat(dashboard): added main variables dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(dashboard): added main variables dashboard" />
+  </component>
+</project>

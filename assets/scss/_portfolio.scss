@@ -1,0 +1,199 @@
+// Portfolio
+.portfolio {
+  .portfolio-filters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+    li {
+      cursor: pointer;
+      display: inline-block;
+      padding: 0;
+      font-size: 14px;
+      font-weight: 400;
+      margin: 0 10px;
+      line-height: 1;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        color: var(--accent-color);
+      }
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    li.filter-active {
+      color: gray;
+    }
+  }
+  .portfolio-content {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+
+    img {
+      transition: 0.3s;
+      width: 100%;
+    }
+    .portfolio-info {
+      opacity: 0;
+      position: absolute;
+      inset: 0;
+      z-index: 3;
+      transition: all ease-in-out 0.3s;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 15px;
+      text-transform: capitalize;
+      h4 {
+        font-size: 14px;
+        padding: 5px 10px;
+        font-weight: 400;
+        color: #ffffff;
+        display: inline-block;
+        background-color: var(--accent-color);
+      }
+      p {
+        position: absolute;
+        bottom: 10px;
+        text-align: center;
+        display: inline-block;
+        left: 0;
+        right: 0;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.8);
+      }
+      .preview-link {
+        position: absolute;
+        left: calc(50% - 40px);
+        font-size: 26px;
+        top: calc(50% - 14px);
+        color: #fff;
+        transition: 0.3s;
+        line-height: 1.2;
+        &:hover {
+          color: var(--accent-color);
+        }
+      }
+      .details-link {
+        position: absolute;
+        left: calc(50% - 40px);
+        font-size: 26px;
+        top: calc(50% - 14px);
+        color: #fff;
+        transition: 0.3s;
+        line-height: 1.2;
+        left: 50%;
+        font-size: 34px;
+        line-height: 0;
+        &:hover {
+          color: var(--accent-color);
+        }
+      }
+    }
+    &:hover {
+      .portfolio-info {
+        opacity: 1;
+      }
+      img {
+        animation: scroll-down 9s linear forwards; // انیمیشن اسکرول
+      }
+    }
+  }
+}
+
+.portfolio-details {
+  .portfolio-details-slider {
+    img {
+      width: 100%;
+    }
+    .swiper-pagination {
+      margin-top: 20px;
+      position: relative;
+      .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background-color: color-mix(in srgb, var(--default-color), transparent 85%);
+        opacity: 1;
+      }
+      .swiper-pagination-bullet-active {
+        background-color: var(--accent-color);
+      }
+    }
+  }
+  .portfolio-info {
+    padding: 30px;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+    h3 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      font-size: 15px;
+      li {
+        + {
+          li {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+  .portfolio-description {
+    padding-top: 30px;
+    h2 {
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    p {
+      padding: 0;
+      color: color-mix(in srgb, var(--default-color), transparent 30%);
+    }
+  }
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(-100% + 300px));
+  }
+}
+// Portfolio Details
+
+@media (max-width: 578px) {
+  .portfolio {
+    .portfolio-content {
+      height: 150px;
+    }
+
+    .portfolio-info {
+
+      h4 {
+        font-size: 12px !important;
+        padding: 2px 5px !important;
+      }
+
+      p {
+        bottom: -7px !important;
+        left: 0;
+        right: 0;
+        font-size: 11px !important;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+
+}

@@ -1,0 +1,99 @@
+.services {
+  .service-item {
+    position: relative;
+    .icon {
+      background: var(--accent-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      transition: 0.5s;
+      border: 1px solid var(--accent-color);
+      margin-right: 20px;
+      i {
+        color: var(--contrast-color);
+        font-size: 24px;
+        line-height: 0;
+      }
+    }
+    &:hover {
+      .icon {
+        background: var(--surface-color);
+        i {
+          color: var(--accent-color);
+        }
+      }
+    }
+    .title {
+      font-weight: 700;
+      margin-bottom: 15px;
+      font-size: 18px;
+      a {
+        color: var(--heading-color);
+        &:hover {
+          color: var(--accent-color);
+        }
+      }
+    }
+    .description {
+      line-height: 24px;
+      font-size: 14px;
+    }
+  }
+}
+
+.service-details {
+  .services-list {
+    padding: 10px 30px;
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    margin-bottom: 20px;
+    a {
+      display: block;
+      line-height: 1;
+      padding: 8px 0 8px 15px;
+      border-left: 3px solid color-mix(in srgb, var(--default-color), transparent 70%);
+      margin: 20px 0;
+      color: color-mix(in srgb, var(--default-color), transparent 20%);
+      transition: 0.3s;
+      &:hover {
+        border-color: var(--accent-color);
+      }
+    }
+    a.active {
+      color: var(--heading-color);
+      font-weight: 700;
+      border-color: var(--accent-color);
+    }
+  }
+  .services-img {
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  h4 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 15px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+    li {
+      padding: 5px 0;
+      display: flex;
+      align-items: center;
+    }
+    i {
+      font-size: 20px;
+      margin-right: 8px;
+      color: var(--accent-color);
+    }
+  }
+}
