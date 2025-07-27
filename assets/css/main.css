@@ -239,6 +239,7 @@
 }
 
 #preloader {
+  direction: ltr;
   display: flex;
   position: fixed;
   inset: 0;
